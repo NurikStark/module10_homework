@@ -1,0 +1,18 @@
+.btn{
+	background: blue;
+	padding: 15px 30px;
+	display: flex;
+	align-items: center;
+}
+.text{
+	font-size: 14px;
+	color: #fff;
+}
+.btn__icon{
+	margin-left: 15px;
+	display: none;
+}
+
+.active{
+	display: block;
+}

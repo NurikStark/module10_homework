@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<button class="btn" style="padding: 15px 30px; background: green;">Show window width</button>
+</body>
+	<script type="text/javascript">
+		const btn = document.querySelector('.btn')
+
+
+	btn.addEventListener('click', () =>{
+		const screenAvailWidth = window.screen.availWidth;
+		const screenHeight = window.screen.height;
+		window.alert(screenAvailWidth)
+		window.alert(screenHeight)
+	})
+	</script>
+</html>
